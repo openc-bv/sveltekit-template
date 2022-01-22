@@ -42,3 +42,6 @@ You can preview the built app with `npm run preview`, regardless of whether you 
 
 Please also see the [colophon] and note that a [license] applies to all work in
 this repository. This component library is not intended for commercial use and not for personal use as well, although the license tolerates the latter.
+
+[colophon]: COLOPHON.md
+[license]: LICENSE
