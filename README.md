@@ -1,6 +1,6 @@
 # OpenC SvelteKit template
 
-Preconfigured SvelteKit template with:
+Preconfigured SvelteKit template based on [this one](https://github.com/garraflavatra/sveltekit-template) and adapted for use within [OpenC](https://www.openc.nl). It ships with:
 
 - VS Code configuration files
 - `.nvmrc`
@@ -37,3 +37,8 @@ npm run build
 ```
 
 You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+
+---
+
+Please also see the [colophon] and note that a [license] applies to all work in
+this repository. This component library is not intended for commercial use and not for personal use as well, although the license tolerates the latter.
