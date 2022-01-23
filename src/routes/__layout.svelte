@@ -12,7 +12,7 @@
 </script>
 
 <script lang="ts">
-	import NavigationBar from '@openc-bv/design-system/components/navigation-bar.svelte';
+	import { NavigationBar } from '@openc-bv/design-system';
 	import '../../node_modules/@openc-bv/design-system/styles/_base.scss';
 
 	export let path: string = undefined;

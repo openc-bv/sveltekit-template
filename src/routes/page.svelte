@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Prose from '@openc-bv/design-system/components/prose.svelte';
-	import Button from '@openc-bv/design-system/components/button.svelte';
+	import { Button, Prose } from '@openc-bv/design-system';
 </script>
 
 <Prose title="Page 2" author="Plato" readingTime={2}>
