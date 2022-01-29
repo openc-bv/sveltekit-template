@@ -1,3 +1,4 @@
-import serviceWorker from '@openc-bv/design-system/sveltekit/service-worker';
+import { svelteKitServiceWorker } from '@openc-bv/design-system';
+import * as swData from '$service-worker';
 
-serviceWorker();
+svelteKitServiceWorker(swData);
