@@ -12,8 +12,8 @@
 </script>
 
 <script lang="ts">
-	//import '../../node_modules/@openc-bv/design-system/styles/_base.scss';
-	import { NavigationBar } from '@openc-bv/design-system';
+	import '@openc-bv/design-system/styles/_base.scss';
+	import NavigationBar from '@openc-bv/design-system/components/navigation-bar.svelte';
 
 	export let path: string = undefined;
 </script>
@@ -34,7 +34,3 @@
 <main class="oc-page-content">
 	<slot />
 </main>
-
-<style lang="scss" global>
-	@import '../../node_modules/@openc-bv/design-system/styles/_base.scss';
-</style>
